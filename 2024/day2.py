@@ -36,10 +36,6 @@ def day2_2(l: list[list[int]]) -> int:
     counter = 0
     
     def is_valid_sequence(nums: list[int]) -> int:
-        """
-        Check if sequence is valid and return index where it becomes invalid (-1 if valid).
-        The sequence must be consistently increasing or decreasing with differences of 1-3.
-        """
         if len(nums) < 2:
             return -1
             
